@@ -1,0 +1,151 @@
+body{
+    font: 15px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+    margin: 0px;
+    padding: 0px;
+}
+/* Global */ 
+
+.container{
+    width: 100%;
+    margin: auto;
+    display:inline;
+
+}
+/* Header **/
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d solid 5px;   
+}
+
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #ffffff;
+}
+header ul{
+    margin: 0px;
+    padding: 0px;
+}
+header li{
+   padding: 0 20px 0 20px;
+    float: left;
+    display: inline;
+}
+header #branding{
+    
+    display: inline;
+}
+
+header nav{
+    float: right;
+    margin-top: 15px;
+    
+}
+header h1{
+    margin: 0px;
+    float: left;
+}
+
+header .highlight, header .container a{
+    color: #e8491d;
+    font-weight: bold;
+}
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+#newsletter{
+    color: #35424a;
+    padding: 15px;
+    color: #ffffff;
+    display: inline;
+}
+
+form{
+    margin-top: 50px;
+}
+form h2{
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.jug input{
+    margin-top: 20px;    
+    
+}
+
+input[type="text"]{
+    
+    width: 250px;
+    height: 20px;
+}
+input[type="submit"]{
+    
+    background-color: #e8491d;
+    color: #ffffff;
+    height: 28px;
+    border: 0px;
+    
+}
+#boxes{
+    margin: 50px;
+}
+
+/*sidebar*/
+aside #sidebar{
+    float: right;
+    width: 30%; 
+    margin-top:10px;
+}
+
+#main{
+    display: inline;
+}
+/*main-col*/ 
+article #main-col{
+    float: left;
+    
+}
+article .page-title{
+   
+}
+/*services*/
+ul #services li{
+    background: #e6e6e6;
+    padding: 20px;
+}
+
+.dark{
+    background-color:grey;
+    color: white;
+    margin-top: 20px;
+    margin: 10px;
+    padding: 15px;
+     width:250px;
+    border-radius: 10%
+}d
+input[type="submit"]{
+    background-color: #e8491d;
+}
+.footer{
+    width: 100%;
+    background-color: #e8491d;
+    text-align: center;
+    color: #fff;
+    height: 100%;
+    position: inherit;  
+}
+.footer p{
+    padding-top: 15px;
+}
+
+
+
